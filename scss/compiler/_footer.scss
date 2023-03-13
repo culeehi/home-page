@@ -56,8 +56,7 @@
    color: #e7e5ea;
 }
 
-.items .input input,
-button {
+.items .input input {
    font-family: 'DM Sans';
    font-style: normal;
    font-weight: 400;
@@ -71,12 +70,19 @@ button {
    color: #7b88a8;
 }
 
-.items .input button {
+.items .input .input-submit {
    background-color: #4f77ff;
-   color: #fcfcfc;
    padding: 5px 25px;
    cursor: pointer;
    margin: 25px 0 15px 0;
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   opacity: 1;
+   border-radius: 5px;
+   color: #fff;
 }
 
 .items .input p {
