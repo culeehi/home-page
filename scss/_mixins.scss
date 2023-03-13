@@ -1,0 +1,16 @@
+@media only screen and (max-width: 550px) {
+   .main .container {
+      display: flex;
+      display: grid;
+   }
+
+   .product-item {
+      margin-left: 0;
+   }
+}
+
+@media only screen and (max-width: 1428px) {
+   .product-nav {
+      justify-content: space-around;
+   }
+}
