@@ -431,6 +431,7 @@ header {
 
 .product-items .product-img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .product-info {
@@ -649,16 +650,16 @@ input[type=range]::-webkit-slider-thumb {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
   .product-items {
     width: 40%;
-    margin: 15px;
+    margin: 15px 10px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .product-items {
-    width: 75%;
-    margin: 15px;
+    width: 65%;
+    margin: 10px auto;
   }
 }
 
