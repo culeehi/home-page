@@ -11,6 +11,19 @@
 
 @media only screen and (max-width: 1428px) {
    .product-nav {
-      justify-content: space-around;
+      // justify-content: space-around;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+   .product-items {
+      width: 40%;
+      margin: 15px;
+   }
+}
+@media only screen and (max-width: 400px) {
+   .product-items {
+      width: 75%;
+      margin: 15px;
    }
 }

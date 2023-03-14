@@ -45,6 +45,8 @@ input[type='range']::-webkit-slider-thumb {
 .field {
    display: flex;
    margin-top: 30px;
+   flex-wrap: wrap;
+   width: 85px;
 }
 
 .input-min {
@@ -82,4 +84,9 @@ input[type='range']::-webkit-slider-thumb {
    color: #4f77ff;
    background-color: #fff;
    margin: 0 5px;
+   cursor: pointer;
+}
+
+.a {
+   display: flex;
 }
