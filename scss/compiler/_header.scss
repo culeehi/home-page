@@ -1,0 +1,92 @@
+header {
+   height: 500px;
+   background: url(../assets/img/Hero.png) top center/cover;
+   margin-bottom: 60px;
+   object-fit: cover;
+   width: 100%;
+}
+.img-down {
+   height: 20px;
+   position: relative;
+   top: 5px;
+}
+
+.header-nav {
+   display: flex;
+   justify-content: space-around;
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 30px;
+   flex-wrap: wrap;
+}
+
+.header-logo {
+   display: flex;
+}
+
+.header-logo h2 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: -0.4px;
+   padding: 5px 0 0 10px;
+   color: #2d3958;
+}
+
+/* phan item header */
+.header-item {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.header-item ul {
+   font-family: 'Outfit', sans-serif;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 24px;
+   letter-spacing: -0.3px;
+   text-transform: uppercase;
+   color: #7b88a8;
+   margin: 10px 15px 0 15px;
+}
+
+.header-item ul:hover {
+   color: #2d3958;
+   cursor: pointer;
+}
+
+/* phan tim kiem dang nhap */
+
+.header-info {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 15px;
+}
+
+.header-info .icon {
+   width: 18px;
+   height: 20px;
+   margin: 12px 15px 0 15px;
+   cursor: pointer;
+}
+
+.header-info .info-btn {
+   width: 129px;
+   height: 48px;
+   left: 1416px;
+   top: 16px;
+   color: #fff;
+   background: #4f77ff;
+   border-radius: 5px;
+   margin-left: 15px;
+   cursor: pointer;
+}
+
+/* phan main */
+
+.container {
+   width: 83%;
+   margin: 0 auto;
+   display: flex;
+}

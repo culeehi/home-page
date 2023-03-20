@@ -1,0 +1,92 @@
+.range-input {
+   position: relative;
+}
+.slide {
+   background-color: #e7e5ea;
+}
+.slide .progress {
+   background-color: #4f77ff;
+   height: 5px;
+   border-radius: 5px;
+   width: 60%;
+   margin: 0 auto;
+}
+.range-input input {
+   bottom: -5px;
+   position: absolute;
+   width: 100%;
+
+   background: none;
+   pointer-events: none;
+   -webkit-appearance: none;
+   cursor: pointer;
+}
+
+.range-text .min input {
+   margin-top: 7px;
+   text-align: center;
+   border-style: none;
+}
+
+.range-text .max input {
+   text-align: center;
+   border-style: none;
+   margin-top: 7px;
+}
+input[type='range']::-webkit-slider-thumb {
+   height: 17px;
+   width: 17px;
+   border-radius: 50%;
+   pointer-events: auto;
+   -webkit-appearance: none;
+   background: #4f77ff;
+}
+
+.field {
+   display: flex;
+   margin-top: 30px;
+   flex-wrap: wrap;
+   width: 85px;
+}
+
+.input-min {
+   width: 100%;
+}
+
+.price-info {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 35px;
+   flex-wrap: wrap;
+}
+.price-info .price-info_text {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   letter-spacing: -0.3px;
+   text-transform: uppercase;
+   color: #888682;
+   opacity: 0.7;
+   margin: 0 5px;
+}
+
+.price-info .price-info_btn {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   text-align: right;
+   letter-spacing: -0.3px;
+   text-transform: uppercase;
+   color: #4f77ff;
+   background-color: #fff;
+   margin: 0 5px;
+   cursor: pointer;
+}
+
+.a {
+   display: flex;
+}

@@ -1,0 +1,329 @@
+.container {
+   display: flex;
+   // flex-wrap: wrap;
+}
+
+.app-sidebar {
+   flex-basis: 25%;
+}
+
+.product-item {
+   margin-left: 50px;
+   flex-basis: 75%;
+}
+.sidebar .sidebar-btn {
+   margin-bottom: 35px;
+}
+
+.sidebar-items {
+   display: none;
+}
+.title-btn {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #cbc7d2;
+   padding-bottom: 25px;
+   margin-bottom: 40px;
+   cursor: pointer;
+}
+
+.items-bag {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.items-items {
+   display: flex;
+}
+.items-items input {
+   width: 17px;
+}
+
+.items-items p {
+   position: relative;
+
+   left: 10px;
+
+   font-family: 'DM Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: -0.3px;
+   color: #7b88a8;
+}
+
+.title-btn h4 {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 28px;
+   /* or 156% */
+
+   letter-spacing: 0.4px;
+
+   /* Text/Heading */
+
+   color: #2d3958;
+}
+
+/* asdasdasd */
+
+.bag-kid .kid {
+   display: flex;
+   margin-left: 25px;
+}
+.bag-kid .kid input {
+   width: 13px;
+}
+
+.bag-kid .kid p {
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: -0.3px;
+   color: #7b88a8;
+   margin-left: 5px;
+}
+
+#myDropdown,
+#myDN,
+#myPrice {
+   display: none;
+}
+
+#bagkid {
+   display: none;
+}
+
+#title-electron.show ~ #bagkid {
+   display: block;
+}
+
+#title-category.show ~ #myDropdown {
+   display: block;
+}
+
+#title-brand.show ~ #myDn {
+   display: block;
+}
+
+#title-price.show ~ #myPrice {
+   display: block;
+}
+
+/* phan sauuuu */
+/* ádasdasd */
+
+.subnav li {
+   padding-left: 30px;
+}
+
+.subnav li input {
+   width: 15px;
+   height: 15px;
+}
+
+.subnav li a {
+   text-decoration: none;
+   font-family: 'DM Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 24px;
+
+   letter-spacing: -0.3px;
+   color: #7b88a8;
+   padding-left: 8px;
+}
+
+.price-input {
+   display: flex;
+   justify-content: space-around;
+}
+
+/* phan tuy chon san pham */
+
+.product-header {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #cbc7d2;
+}
+
+.product-header h3 {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 28px;
+   letter-spacing: 0.4px;
+   color: #2d3958;
+   margin-bottom: 25px;
+}
+
+.product-header-btn {
+   display: flex;
+   background-color: #fff;
+   border: #e7e5ea 1px solid;
+   border-radius: 5px;
+   width: 210px;
+   height: 48px;
+   justify-content: space-between;
+   cursor: pointer;
+   position: relative;
+   bottom: 10px;
+}
+
+.product-header-btn p {
+   font-family: 'DM Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #7b88a8;
+   text-align: center;
+   opacity: 0.7;
+   padding: 10px 0px 0px 10px;
+}
+
+.product-header-btn img {
+   width: 20px;
+   height: 20px;
+   margin: 8px 8px;
+}
+.product-header-btn img:hover {
+   background-color: #4f77ff;
+   color: #fff;
+   border-radius: 2px;
+}
+
+/* san pham */
+
+.product-nav {
+   margin-top: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   border-bottom: 1px solid #cbc7d2;
+}
+
+.product-items {
+   box-shadow: 0px 0px 6px 6px darkgrey;
+   margin: 15px 5px;
+   padding-bottom: 15px;
+   border-radius: 10px;
+   width: 30%;
+}
+
+.product-items .product-img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.product-info {
+   text-align: center;
+}
+
+.product-info h4 {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.4px;
+   color: #2d3958;
+}
+
+.product-info p {
+   font-family: 'DM Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+
+   text-align: center;
+   color: #7b88a8;
+}
+
+/* phan di chuyen giưa các trang */
+
+.number-page {
+   margin-top: 50px;
+   margin-bottom: 120px;
+   text-align: center;
+}
+
+.number-page > button {
+   margin: 0 10px;
+   background-color: #fff;
+   padding: 13px 20px;
+
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: -0.3px;
+   text-transform: uppercase;
+   color: #7b88a8;
+}
+
+.number-page button:hover {
+   background-color: #4f77ff;
+   color: #fff;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.number-page button:hover img {
+   color: #fff;
+   background-color: #fff;
+}
+
+/* phan content main */
+
+.content-main {
+   background: url(../assets/img/bgr.png) top center/cover;
+   object-fit: cover;
+   height: auto;
+   max-width: 100%;
+   padding: 100px;
+   text-align: center;
+}
+
+.content-main .text h2 {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 48px;
+   line-height: 56px;
+   text-align: center;
+   letter-spacing: -2px;
+   color: #2d3958;
+}
+
+.content-main .text p {
+   font-family: 'Outfit', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 32px;
+   text-align: center;
+   letter-spacing: -1px;
+   color: #7b88a8;
+   margin: 30px 0 75px 0;
+}
+
+.content-main .text button {
+   padding: 18px 45px;
+   background: #4f77ff;
+   border-radius: 5px;
+   color: #fff;
+   cursor: pointer;
+}
